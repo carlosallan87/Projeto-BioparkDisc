@@ -1,0 +1,82 @@
+Ativar o Venv - no CMD
+C:\Users\Carlos\projeto5> python -m venv .venv
+Ativar no venv no cmd e visual 
+.\.venv\Scripts\activate
+Se precisar
+pip install django
+pip install django-extensions
+python manage.py migrate  
+python manage.py runserver
+cd
+-Criar Usuário - 
+python manage.py createsuperuser     
+
+
+pip install -r requirements.txt
+
+
+#### Passo 3 - Carregando Fixtures
+
+python manage.py loaddata projeto5_website\fixtures\initial_data.json
+
+
+- Enviar pasta para rafael incluir na base dele 
+
+C:\Users\Carlos\projeto5\projeto5\projeto5_website\fixtures
+
+
+Comando para puxar salvar as perguntas 
+
+python .\manage.py dumpdata projeto5_website  
+
+python .\manage.py dumpdata projeto5_website --indent 2 > .\projeto5_website\fixtures\initial_data.json
+
+
+
+Códigos tainã
+
+## Projeto 5 - Biopark
+
+
+### Setup de Ambiente DEV
+
+> Requisitos: Python V3
+
+
+#### Passo 1 - Criando virtual env (raiz do projeto clonado)
+bash
+python -m venv .venv
+
+Ativando o virtual env
+
+
+
+#### Passo 2 - Instalando Requisitos
+
+
+pip install -r requirements.txt
+
+
+
+#### Passo 3 - Carregando Fixtures
+
+
+python manage.py loaddata projeto5_website\fixtures\initial_data.json
+
+
+#### Passo 4 - Criando superusuário
+
+
+python manage.py createsuperuser
+
+
+
+#### Passo 5 - Rodando Server
+
+
+python manage.py runserver
+
+
+Aponte seu navegador para [Link](http://localhost:8000/)
+
+

@@ -1,0 +1,415 @@
+[
+    {
+      "model": "projeto5_website.aluno",
+      "pk": 1,
+      "fields": {
+        "nome": "456",
+        "ra": 456,
+        "email": "456"
+      }
+    },
+    {
+      "model": "projeto5_website.aluno",
+      "pk": 2,
+      "fields": {
+        "nome": "789",
+        "ra": 789,
+        "email": "789"
+      }
+    },
+    {
+      "model": "projeto5_website.aluno",
+      "pk": 3,
+      "fields": {
+        "nome": "1",
+        "ra": 1,
+        "email": "1"
+      }
+    },
+    {
+      "model": "projeto5_website.aluno",
+      "pk": 4,
+      "fields": {
+        "nome": "78",
+        "ra": 78,
+        "email": "78@gmail.com"
+      }
+    },
+    {
+      "model": "projeto5_website.aluno",
+      "pk": 5,
+      "fields": {
+        "nome": "7891",
+        "ra": 7891,
+        "email": "7891"
+      }
+    },
+    {
+      "model": "projeto5_website.aluno",
+      "pk": 6,
+      "fields": {
+        "nome": "Gabriel Cavalcante",
+        "ra": 123,
+        "email": "gabriel@ssys.com.br"
+      }
+    },
+    {
+      "model": "projeto5_website.aluno",
+      "pk": 7,
+      "fields": {
+        "nome": "carlos allan da silva rodrigues",
+        "ra": 200,
+        "email": "c.allanrodrigues1@gmail.com"
+      }
+    },
+    {
+      "model": "projeto5_website.resultado",
+      "pk": 1,
+      "fields": {
+        "aluno": 3,
+        "data_ini": "2022-03-28T20:53:01.992Z",
+        "data_fim": "2022-03-28T20:53:01.992Z",
+        "influencia": 0.0,
+        "dominancia": 0.0,
+        "cautela": 0.5,
+        "estabilidade": 0.5
+      }
+    },
+    {
+      "model": "projeto5_website.resultado",
+      "pk": 2,
+      "fields": {
+        "aluno": 2,
+        "data_ini": "2022-03-28T21:36:13.990Z",
+        "data_fim": "2022-03-28T21:36:13.990Z",
+        "influencia": 0.0,
+        "dominancia": 0.5,
+        "cautela": 0.5,
+        "estabilidade": 0.0
+      }
+    },
+    {
+      "model": "projeto5_website.resultado",
+      "pk": 3,
+      "fields": {
+        "aluno": 4,
+        "data_ini": "2022-03-28T21:36:51Z",
+        "data_fim": "2022-03-28T21:36:51Z",
+        "influencia": 0.0,
+        "dominancia": 0.5,
+        "cautela": 0.5,
+        "estabilidade": 0.0
+      }
+    },
+    {
+      "model": "projeto5_website.resultado",
+      "pk": 4,
+      "fields": {
+        "aluno": 5,
+        "data_ini": "2022-03-28T21:58:09.057Z",
+        "data_fim": "2022-03-28T21:58:09.057Z",
+        "influencia": 0.0,
+        "dominancia": 0.5,
+        "cautela": 0.5,
+        "estabilidade": 0.0
+      }
+    },
+    {
+      "model": "projeto5_website.resultado",
+      "pk": 5,
+      "fields": {
+        "aluno": 6,
+        "data_ini": "2022-03-28T22:02:35.273Z",
+        "data_fim": "2022-03-28T22:02:35.273Z",
+        "influencia": 0.0,
+        "dominancia": 1.0,
+        "cautela": 0.0,
+        "estabilidade": 0.0
+      }
+    },
+    {
+      "model": "projeto5_website.resultado",
+      "pk": 6,
+      "fields": {
+        "aluno": 7,
+        "data_ini": "2022-04-11T20:05:31.659Z",
+        "data_fim": "2022-04-11T20:05:31.659Z",
+        "influencia": 0.5,
+        "dominancia": 0.5,
+        "cautela": 0.0,
+        "estabilidade": 0.0
+      }
+    },
+    {
+      "model": "projeto5_website.teste",
+      "pk": 1,
+      "fields": {
+        "nome": "Teste 01"
+      }
+    },
+    {
+      "model": "projeto5_website.pergunta",
+      "pk": 1,
+      "fields": {
+        "teste": 1,
+        "enunciado": "Questão 1"
+      }
+    },
+    {
+      "model": "projeto5_website.pergunta",
+      "pk": 2,
+      "fields": {
+        "teste": 1,
+        "enunciado": "Questão 2"
+      }
+    },
+    {
+      "model": "projeto5_website.pergunta",
+      "pk": 3,
+      "fields": {
+        "teste": 1,
+        "enunciado": "Questão 3"
+      }
+    },
+    {
+      "model": "projeto5_website.pergunta",
+      "pk": 4,
+      "fields": {
+        "teste": 1,
+        "enunciado": "Questão 4"
+      }
+    },
+    {
+      "model": "projeto5_website.pergunta",
+      "pk": 5,
+      "fields": {
+        "teste": 1,
+        "enunciado": "Questão 5"
+      }
+    },
+    {
+      "model": "projeto5_website.pergunta",
+      "pk": 6,
+      "fields": {
+        "teste": 1,
+        "enunciado": "Questão 6"
+      }
+    },
+    {
+      "model": "projeto5_website.alternativa",
+      "pk": 1,
+      "fields": {
+        "pergunta": 1,
+        "conteudo": "amável, gentil",
+        "perfil": 2
+      }
+    },
+    {
+      "model": "projeto5_website.alternativa",
+      "pk": 2,
+      "fields": {
+        "pergunta": 1,
+        "conteudo": "persuasivo, convincente",
+        "perfil": 1
+      }
+    },
+    {
+      "model": "projeto5_website.alternativa",
+      "pk": 3,
+      "fields": {
+        "pergunta": 1,
+        "conteudo": "humilde, reservado, modesto",
+        "perfil": 4
+      }
+    },
+    {
+      "model": "projeto5_website.alternativa",
+      "pk": 4,
+      "fields": {
+        "pergunta": 1,
+        "conteudo": "original, inovador, diferente",
+        "perfil": 4
+      }
+    },
+    {
+      "model": "projeto5_website.alternativa",
+      "pk": 5,
+      "fields": {
+        "pergunta": 2,
+        "conteudo": "doce, complacente",
+        "perfil": 2
+      }
+    },
+    {
+      "model": "projeto5_website.alternativa",
+      "pk": 6,
+      "fields": {
+        "pergunta": 2,
+        "conteudo": "teimoso, tenaz, combativo",
+        "perfil": 1
+      }
+    },
+    {
+      "model": "projeto5_website.alternativa",
+      "pk": 7,
+      "fields": {
+        "pergunta": 2,
+        "conteudo": "cooperativo, está de acordo com  frequência",
+        "perfil": 4
+      }
+    },
+    {
+      "model": "projeto5_website.alternativa",
+      "pk": 8,
+      "fields": {
+        "pergunta": 2,
+        "conteudo": "atrativo, simpático, agradável",
+        "perfil": 3
+      }
+    },
+    {
+      "model": "projeto5_website.alternativa",
+      "pk": 9,
+      "fields": {
+        "pergunta": 3,
+        "conteudo": "fácil de guiar, seguidor",
+        "perfil": 2
+      }
+    },
+    {
+      "model": "projeto5_website.alternativa",
+      "pk": 10,
+      "fields": {
+        "pergunta": 3,
+        "conteudo": "direto, desafiador",
+        "perfil": 1
+      }
+    },
+    {
+      "model": "projeto5_website.alternativa",
+      "pk": 11,
+      "fields": {
+        "pergunta": 3,
+        "conteudo": "leal, devoto, fiel",
+        "perfil": 4
+      }
+    },
+    {
+      "model": "projeto5_website.alternativa",
+      "pk": 12,
+      "fields": {
+        "pergunta": 3,
+        "conteudo": "encantador, faz com que as pessoas  gostem",
+        "perfil": 3
+      }
+    },
+    {
+      "model": "projeto5_website.alternativa",
+      "pk": 13,
+      "fields": {
+        "pergunta": 4,
+        "conteudo": "mente aberta, receptivo",
+        "perfil": 4
+      }
+    },
+    {
+      "model": "projeto5_website.alternativa",
+      "pk": 14,
+      "fields": {
+        "pergunta": 4,
+        "conteudo": "reconhecido pelos demais, gosta de ajudar",
+        "perfil": 2
+      }
+    },
+    {
+      "model": "projeto5_website.alternativa",
+      "pk": 15,
+      "fields": {
+        "pergunta": 4,
+        "conteudo": "voluntarioso, caráter forte e decidido",
+        "perfil": 1
+      }
+    },
+    {
+      "model": "projeto5_website.alternativa",
+      "pk": 16,
+      "fields": {
+        "pergunta": 4,
+        "conteudo": "alegre, divertido",
+        "perfil": 3
+      }
+    },
+    {
+      "model": "projeto5_website.alternativa",
+      "pk": 17,
+      "fields": {
+        "pergunta": 5,
+        "conteudo": "jovial, gosta de alegrar as pessoas",
+        "perfil": 3
+      }
+    },
+    {
+      "model": "projeto5_website.alternativa",
+      "pk": 18,
+      "fields": {
+        "pergunta": 5,
+        "conteudo": "preciso, exato",
+        "perfil": 4
+      }
+    },
+    {
+      "model": "projeto5_website.alternativa",
+      "pk": 19,
+      "fields": {
+        "pergunta": 5,
+        "conteudo": "decidido, determinado, audaz",
+        "perfil": 1
+      }
+    },
+    {
+      "model": "projeto5_website.alternativa",
+      "pk": 20,
+      "fields": {
+        "pergunta": 5,
+        "conteudo": "estável, de temperamento tranquilo, calmo",
+        "perfil": 2
+      }
+    },
+    {
+      "model": "projeto5_website.alternativa",
+      "pk": 21,
+      "fields": {
+        "pergunta": 6,
+        "conteudo": "competitivo, busca ganhar",
+        "perfil": 1
+      }
+    },
+    {
+      "model": "projeto5_website.alternativa",
+      "pk": 22,
+      "fields": {
+        "pergunta": 6,
+        "conteudo": "carinhoso, tem muito tato",
+        "perfil": 2
+      }
+    },
+    {
+      "model": "projeto5_website.alternativa",
+      "pk": 23,
+      "fields": {
+        "pergunta": 6,
+        "conteudo": "extrovertido, gosta de divertir-se",
+        "perfil": 3
+      }
+    },
+    {
+      "model": "projeto5_website.alternativa",
+      "pk": 24,
+      "fields": {
+        "pergunta": 6,
+        "conteudo": "harmonioso, busca o acordo",
+        "perfil": 4
+      }
+    }
+    ]
+    

@@ -1,0 +1,98 @@
+#form-teste{
+background-color: #243746;
+color: rgb(255, 255, 255);
+padding-left: 250px;
+}
+
+#enviar{
+    background-color: #EA0D43;
+    border-color: #EA0D43;
+    margin-bottom: 50px;
+    width: 50%;
+}
+
+#cabecalho{
+    background-color: #243746;
+    padding-bottom: 30px;
+}
+
+img{
+    margin-left: 33%;
+}
+
+h4{
+    margin-left: 33%;
+}
+
+#cabform{
+    padding-bottom: 25px;
+}
+
+#pergunta{
+    padding-bottom: 25px;
+}
+
+.form-check{
+    size: 50px;
+}
+
+h3{
+color: #EB0045;
+}
+
+#result_wrapper{
+    margin-top: 25px;
+}
+
+P{
+    font-size: medium;
+}
+
+#enun{
+    border-color: #EB0045;
+    border-style:groove;
+    margin-top: 30px;
+}
+
+#emprego{
+    margin-top:25px
+}
+
+#empregado{
+    margin-top: -15px;
+}
+
+#resulpredomi{
+   text-transform:capitalize;
+   font-weight: bold
+}
+#obrigado {
+    text-align: center;
+    margin-top: 100px;
+    background-color:#243746 ;
+    height: 100%;
+    margin-top: 0px;
+}
+
+#textoobrigado{
+    padding-top: 100px;
+    color: aliceblue;
+}
+
+#check{
+    color: rgb(126, 212, 45);
+}
+
+.card-body{
+    background-color: #243746;
+}
+
+#loginname{
+    color: aliceblue;
+    font-size: 25px;
+}
+
+#botaologin{
+    background-color: #EA0D43;
+    border-color: #EA0D43;
+}

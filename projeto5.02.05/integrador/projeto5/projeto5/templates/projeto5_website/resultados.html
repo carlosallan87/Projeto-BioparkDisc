@@ -1,0 +1,32 @@
+{% extends "projeto5_website/base.html" %}
+{% block content %}  
+    <table id="example" class="table table-striped table-hover table-bordered table-striped">
+        <thead>
+            <tr>
+                <th class="coluna" scope="col">Nome</th>
+                <th class="coluna" scope="col">Perfil Dominante</th>
+                <th class="porcent" scope="col">Dominância</th>
+                <th class="porcent" scope="col">Influência</th>
+                <th class="porcent" scope="col">Cautela</th>
+                <th class="porcent" scope="col">Estabilidade</th>
+                <th class="porcent" scope="col">Empregado?</th>
+                </tr>
+        </thead>
+        <tbody>
+            {% for resultado in resultados %}
+                <tr id="tabela">
+                    <td>{{ resultado.aluno.nome}}  </td>
+                    <td id="resulpredomi">{{ resultado.perfildominante }}</td>
+                    <td>{{ resultado.dominancia|floatformat:2 }}%</td>
+                    <td>{{ resultado.influencia|floatformat:2 }}%</td>
+                    <td>{{ resultado.cautela|floatformat:2 }}%</td>
+                    <td>{{ resultado.estabilidade|floatformat:2 }}%</td>   
+                    <td>{{ resultado.aluno.empregado}}</td> 
+                </tr>
+            {% endfor %}
+            </tbody>
+        <tfoot>
+        
+        </tfoot>
+    </table>
+{% endblock %}
