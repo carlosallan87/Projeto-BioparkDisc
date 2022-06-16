@@ -10,10 +10,10 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth import authenticate, login, logout
 from django.views.decorators.csrf import csrf_protect
 from django.contrib import messages
-
-
+import pytz
 
 # Create your views here.
+utc=pytz.UTC
 
 def home(request):
   return render(request, "projeto5_website/teste/1.html", 
